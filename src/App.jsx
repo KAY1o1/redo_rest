@@ -17,6 +17,7 @@ function App() {
       <div className="App">
 
         <NavBar />
+        <HomePage />
 
         <Routes>
           <Route path="/" element={<HomePage />} />
