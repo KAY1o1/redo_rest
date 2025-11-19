@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1, 
+        "name":"French Onion Soup Burger" , 
+        "price": 14.49, 
+        "image": "images/french_onion-one.jpeg"
+    },
+    {
+        "id": 2, 
+        "name": "French Onion Shroom Burger", 
+        "price": 14.29, 
+        "image": "images/french_onion-mushroom.jpeg"
+    },
+    {
+        "id": 3, 
+        "name": "ShackBurger" , 
+        "price": 10.09, 
+        "image": "images/shack_ss.jpg"
+    },
+    {
+        "id": 4, 
+        "name": "SmokeShack", 
+        "price": 12.59, 
+        "image": "images/smokeshack-burger.jpg"
+    },
+    {
+        "id": 5, 
+        "name": "Grilled Cheese", 
+        "price": 6.99, 
+        "image": "images/Grilled-Cheese_ss.jpg"
+    },
+    {
+        "id": 6, 
+        "name": "Chicken Shack", 
+        "price": 11.29, 
+        "image": "images/ss_chicken.jpg"
+    },
+    {
+        "id": 7, 
+        "name": "Chicken Bites", 
+        "price": 6.99, 
+        "image": "images/Chicken-Bites.jpg"
+    },
+    {
+        "id": 8, 
+        "name": "Parmesan Garlic Fries", 
+        "price": 7.49, 
+        "image": "images/ss_fries.jpg"
+    },
+    {
+        "id": 9, 
+        "name": "Cheese Fries", 
+        "price": 7.49, 
+        "image": "images/My_Cheese-Fries.jpg"
+    },
+    {
+        "id": 10, 
+        "name": "Coffee Shake", 
+        "price": 8.19, 
+        "image": "images/coffee-milkshake.jpg"
+    },
+    {
+        "id": 11, 
+        "name": "Chocolate Shake", 
+        "price": 8.19, 
+        "image": "images/Shakes-Chocolate.jpeg"
+    },
+    {
+        "id": 12, 
+        "name": "Black & White Shake", 
+        "price": 8.19, 
+        "image": "images/bw_shake.jpg"
+    }
+]

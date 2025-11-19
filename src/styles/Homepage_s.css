@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(2, 31, 0);
+    color: white;
+}
+
+.Home_header{
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+}
+
+.Rec-items{
+    margin-bottom: 30px;
+
+}
+
+.horiz-scroll-container{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.horiz-scroll-container::-webkit-scrollbar{
+    display: none;
+}
+
+.item-card{
+    flex: 0 0 150px;
+    background-color: rgb(27, 181, 50);
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    height: 100px;
+}
+
+#item1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.5)),url('../images/burger_ss.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#item2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.5)),url('../images/ss_chicken.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#item3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.5)),url('../images/Chicken-Bites.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#item4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.5)),url('../images/french_onion-mushroom.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+#item5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.5)),url('../images/ss_fries.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#item6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.5)),url('../images/coffee-milkshake.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#item7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.5)),url('../images/Grilled-Cheese_ss.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.reg-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.info-card{
+    background-color: rgb(27, 181, 50);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+.info-card:hover{
+    background-color: rgb(7, 87, 19);
+    border: 1px solid #93f598;
+}

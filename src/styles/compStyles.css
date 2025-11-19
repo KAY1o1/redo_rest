@@ -1,0 +1,137 @@
+/* Nav Bar */
+.navbar-container{
+
+    color: white;
+    display: flex;
+    justify-content:right;
+    height: 190px;
+    width: 100%; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.5)),url('../assets/ss_sign.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#cartPage span{
+    color: #ffffff;
+    font-size:25px;
+}
+
+.a-item{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff27;
+}
+
+.side-icon{
+    cursor: pointer;
+    font-size: 3rem;
+
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #02521b;
+    transition: right 0.3s ease;
+    z-index: 100;
+    padding-top: 60px;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.sidebar.is-open {
+    right: 0;
+}
+
+
+.navbar-logo img{
+    width: 3rem;
+    height: auto;
+    
+}
+.navbar-logo{
+    padding: 20px 20px;
+    padding-bottom: 5px;
+}
+
+
+.navbar-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.navitem a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+
+.navitem a:hover {
+    background-color: #cbdbbf;
+    color: #02521b;
+}
+
+
+.cart-logo a{
+    font-size: 2rem;
+    text-decoration: none;
+    text-decoration-color: white;
+
+}
+
+
+
+
+/* Footer */
+
+.foot-info{
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.footer-section{
+    background-color: #02521b;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    margin-top: 40px;
+    justify-content: right;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+      background-color: #cbdbbf;
+      color: #02521b;
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(2, 31, 0);
+    color: white;
+}
+
+.map-info {
+    display: flex;       
+    justify-content: space-between; 
+    gap: 20px;          
+    padding: 20px;      
+    flex-wrap: wrap;    
+}
+
+.info_c {
+    flex: 1;            
+    min-width: 300px;   
+}
+
+.container {
+    flex: 1;            
+    min-width: 300px;   
+}
+
+.container form input[type="text"],
+.container form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.container form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (min-width: 708px) {
+    .map-info {
+        flex-direction: column; 
+    }
+
+    /* Reset min-widths for single-column mobile view */
+    .left-column,
+    .container {
+        min-width: unset; 
+        width: 100%; /* Make them take full width */
+    }
+}

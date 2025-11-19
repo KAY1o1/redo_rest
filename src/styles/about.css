@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(2, 31, 0);
+    color: white;
+}
+
+
+
+.navbar{
+    display: flex;
+    height: 360px;
+    overflow: hidden;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+   
+}
+
+#image_bg{
+    position: absolute;
+    max-width: 1500px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.navbar_container{
+    display: flex;
+    position: absolute;
+    justify-content:left;
+    align-items: start;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0;
+    gap: 0.5px;
+    z-index: 2;
+    min-width: 100%;
+    background-color: transparent;
+
+}
+
+#navbar_logo{
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: start;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    cursor: pointer;
+    text-decoration: none;  
+    
+
+}
+
+#logo_nav{
+    width: auto;
+    max-height: 40px;
+    
+}
+
+.nav_menu{
+    padding-top: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: end;
+    list-style: none;
+    gap: 1px;
+
+}
+
+.navbar_item{
+    height: 80px;
+
+}
+
+.nav_itemlink{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items:baseline;
+    justify-content: end;
+    width: 125px;
+    height: 100%;
+}
+
+.nav_itemlink:hover{
+    color: rgb(84, 164, 50);
+}
+
+
+
+.f-container{
+    background-color: rgb(1, 12, 0);
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 5px 20px;
+
+}
+
+.footer-text{
+    margin-bottom: 20px;
+    line-height: 1.5
+
+}
+
+.footer-social{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.footer-social a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.footer-social a:hover{
+    color: rgb(84, 164, 50);
+}
+
+.home_screen{
+    text-align: center;
+
+}
+
+.home_screen h1{
+    margin-top: 30px;
+    text-decoration: overline;
+
+}
+
+#note{
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+
+#para{
+    background-color: #00060069;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.cart-icon{
+    margin: 10px;
+    display:flex;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+
+}
