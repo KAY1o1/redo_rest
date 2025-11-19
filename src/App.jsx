@@ -17,7 +17,6 @@ function App() {
       <div className="App">
 
         <NavBar />
-        <HomePage />
 
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -27,7 +26,7 @@ function App() {
           <Route path="/cart" element={<CartPage />} />
         </Routes>
 
-
+         <HomePage />
 
         <FooterBar />
       </div>
